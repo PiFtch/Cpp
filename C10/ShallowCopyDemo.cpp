@@ -18,6 +18,7 @@ int main() {
     cout << "after creating person1 and person2" << endl;
     displayPerson(person1, person2);
 
+    delete person1.getBirthDate();
     person1 = Person(person2);
 
     cout << "after copying person2 to person1" << endl;
